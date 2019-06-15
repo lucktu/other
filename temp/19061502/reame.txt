@@ -1,0 +1,9 @@
+Going from normal to disconnected to normal.
+
+----------------------------------------------------
+
+Router A (edge A runs inside ) ping supernode is normal, continuous,
+Router B (edge B runs inside ) ping supernode is normal, continuous too,
+Router B ping Router A's edgeip, Going from normal to disconnected to normal.
+
+Router A's network environment is very poor. Others can¡®t P2P with it. 
