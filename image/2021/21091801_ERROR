@@ -1,0 +1,258 @@
+/opt/n2n/build
+
+================================================================================================================
+cmake ..
+
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build from git rev: 2.9.0.r987.d4e0f5a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/n2n/build
+
+================================================================================================================
+make
+
+/usr/bin/cmake -H/opt/n2n -B/opt/n2n/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /opt/n2n/build/CMakeFiles /opt/n2n/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/opt/n2n/build'
+make -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/doc.dir/DependInfo.cmake --color=
+Scanning dependencies of target doc
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[  2%] Generating doc/edge.8.gz
+gzip -c /opt/n2n/edge.8 > /opt/n2n/build/doc/edge.8.gz
+[  4%] Generating doc/supernode.1.gz
+gzip -c /opt/n2n/supernode.1 > /opt/n2n/build/doc/supernode.1.gz
+[  6%] Generating doc/n2n.7.gz
+gzip -c /opt/n2n/n2n.7 > /opt/n2n/build/doc/n2n.7.gz
+make[2]: Leaving directory '/opt/n2n/build'
+[  6%] Built target doc
+make -f CMakeFiles/n2n.dir/build.make CMakeFiles/n2n.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/n2n.dir/DependInfo.cmake --color=
+Scanning dependencies of target n2n
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/n2n.dir/build.make CMakeFiles/n2n.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[  9%] Building C object CMakeFiles/n2n.dir/src/n2n.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/n2n.c.o   -c /opt/n2n/src/n2n.c
+[ 11%] Building C object CMakeFiles/n2n.dir/src/edge_utils.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/edge_utils.c.o   -c /opt/n2n/src/edge_utils.c
+[ 13%] Building C object CMakeFiles/n2n.dir/src/sn_utils.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/sn_utils.c.o   -c /opt/n2n/src/sn_utils.c
+[ 15%] Building C object CMakeFiles/n2n.dir/src/wire.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/wire.c.o   -c /opt/n2n/src/wire.c
+[ 18%] Building C object CMakeFiles/n2n.dir/src/minilzo.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/minilzo.c.o   -c /opt/n2n/src/minilzo.c
+[ 20%] Building C object CMakeFiles/n2n.dir/src/tf.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/tf.c.o   -c /opt/n2n/src/tf.c
+[ 22%] Building C object CMakeFiles/n2n.dir/src/cc20.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/cc20.c.o   -c /opt/n2n/src/cc20.c
+[ 25%] Building C object CMakeFiles/n2n.dir/src/transform_null.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/transform_null.c.o   -c /opt/n2n/src/transform_null.c
+[ 27%] Building C object CMakeFiles/n2n.dir/src/transform_tf.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/transform_tf.c.o   -c /opt/n2n/src/transform_tf.c
+[ 29%] Building C object CMakeFiles/n2n.dir/src/transform_aes.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/transform_aes.c.o   -c /opt/n2n/src/transform_aes.c
+[ 31%] Building C object CMakeFiles/n2n.dir/src/transform_cc20.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/transform_cc20.c.o   -c /opt/n2n/src/transform_cc20.c
+[ 34%] Building C object CMakeFiles/n2n.dir/src/transform_speck.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/transform_speck.c.o   -c /opt/n2n/src/transform_speck.c
+[ 36%] Building C object CMakeFiles/n2n.dir/src/aes.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/aes.c.o   -c /opt/n2n/src/aes.c
+[ 38%] Building C object CMakeFiles/n2n.dir/src/speck.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/speck.c.o   -c /opt/n2n/src/speck.c
+[ 40%] Building C object CMakeFiles/n2n.dir/src/random_numbers.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/random_numbers.c.o   -c /opt/n2n/src/random_numbers.c
+[ 43%] Building C object CMakeFiles/n2n.dir/src/pearson.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/pearson.c.o   -c /opt/n2n/src/pearson.c
+[ 45%] Building C object CMakeFiles/n2n.dir/src/header_encryption.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/header_encryption.c.o   -c /opt/n2n/src/header_encryption.c
+[ 47%] Building C object CMakeFiles/n2n.dir/src/tuntap_freebsd.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/tuntap_freebsd.c.o   -c /opt/n2n/src/tuntap_freebsd.c
+[ 50%] Building C object CMakeFiles/n2n.dir/src/tuntap_netbsd.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/tuntap_netbsd.c.o   -c /opt/n2n/src/tuntap_netbsd.c
+[ 52%] Building C object CMakeFiles/n2n.dir/src/tuntap_linux.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/tuntap_linux.c.o   -c /opt/n2n/src/tuntap_linux.c
+[ 54%] Building C object CMakeFiles/n2n.dir/src/tuntap_osx.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/tuntap_osx.c.o   -c /opt/n2n/src/tuntap_osx.c
+[ 56%] Building C object CMakeFiles/n2n.dir/src/n2n_regex.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/n2n_regex.c.o   -c /opt/n2n/src/n2n_regex.c
+[ 59%] Building C object CMakeFiles/n2n.dir/src/network_traffic_filter.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/network_traffic_filter.c.o   -c /opt/n2n/src/network_traffic_filter.c
+[ 61%] Building C object CMakeFiles/n2n.dir/src/sn_selection.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/sn_selection.c.o   -c /opt/n2n/src/sn_selection.c
+[ 63%] Building C object CMakeFiles/n2n.dir/src/auth.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/auth.c.o   -c /opt/n2n/src/auth.c
+[ 65%] Building C object CMakeFiles/n2n.dir/src/curve25519.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n.dir/src/curve25519.c.o   -c /opt/n2n/src/curve25519.c
+[ 68%] Linking C static library libn2n.a
+/usr/bin/cmake -P CMakeFiles/n2n.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/n2n.dir/link.txt --verbose=1
+/usr/bin/ar qc libn2n.a  CMakeFiles/n2n.dir/src/n2n.c.o CMakeFiles/n2n.dir/src/edge_utils.c.o CMakeFiles/n2n.dir/src/sn_utils.c.o CMakeFiles/n2n.dir/src/wire.c.o CMakeFiles/n2n.dir/src/minilzo.c.o CMakeFiles/n2n.dir/src/tf.c.o CMakeFiles/n2n.dir/src/cc20.c.o CMakeFiles/n2n.dir/src/transform_null.c.o CMakeFiles/n2n.dir/src/transform_tf.c.o CMakeFiles/n2n.dir/src/transform_aes.c.o CMakeFiles/n2n.dir/src/transform_cc20.c.o CMakeFiles/n2n.dir/src/transform_speck.c.o CMakeFiles/n2n.dir/src/aes.c.o CMakeFiles/n2n.dir/src/speck.c.o CMakeFiles/n2n.dir/src/random_numbers.c.o CMakeFiles/n2n.dir/src/pearson.c.o CMakeFiles/n2n.dir/src/header_encryption.c.o CMakeFiles/n2n.dir/src/tuntap_freebsd.c.o CMakeFiles/n2n.dir/src/tuntap_netbsd.c.o CMakeFiles/n2n.dir/src/tuntap_linux.c.o CMakeFiles/n2n.dir/src/tuntap_osx.c.o CMakeFiles/n2n.dir/src/n2n_regex.c.o CMakeFiles/n2n.dir/src/network_traffic_filter.c.o CMakeFiles/n2n.dir/src/sn_selection.c.o CMakeFiles/n2n.dir/src/auth.c.o CMakeFiles/n2n.dir/src/curve25519.c.o
+/usr/bin/ranlib libn2n.a
+make[2]: Leaving directory '/opt/n2n/build'
+[ 68%] Built target n2n
+make -f CMakeFiles/n2n-keygen.dir/build.make CMakeFiles/n2n-keygen.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/n2n-keygen.dir/DependInfo.cmake --color=
+Scanning dependencies of target n2n-keygen
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/n2n-keygen.dir/build.make CMakeFiles/n2n-keygen.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[ 70%] Building C object CMakeFiles/n2n-keygen.dir/tools/n2n-keygen.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n-keygen.dir/tools/n2n-keygen.c.o   -c /opt/n2n/tools/n2n-keygen.c
+[ 72%] Linking C executable n2n-keygen
+/usr/bin/cmake -E cmake_link_script CMakeFiles/n2n-keygen.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs  -rdynamic CMakeFiles/n2n-keygen.dir/tools/n2n-keygen.c.o  -o n2n-keygen libn2n.a -lpthread 
+make[2]: Leaving directory '/opt/n2n/build'
+[ 72%] Built target n2n-keygen
+make -f CMakeFiles/n2n-benchmark.dir/build.make CMakeFiles/n2n-benchmark.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/n2n-benchmark.dir/DependInfo.cmake --color=
+Scanning dependencies of target n2n-benchmark
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/n2n-benchmark.dir/build.make CMakeFiles/n2n-benchmark.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[ 75%] Building C object CMakeFiles/n2n-benchmark.dir/tools/n2n-benchmark.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/n2n-benchmark.dir/tools/n2n-benchmark.c.o   -c /opt/n2n/tools/n2n-benchmark.c
+[ 77%] Linking C executable n2n-benchmark
+/usr/bin/cmake -E cmake_link_script CMakeFiles/n2n-benchmark.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs  -rdynamic CMakeFiles/n2n-benchmark.dir/tools/n2n-benchmark.c.o  -o n2n-benchmark libn2n.a -lpthread 
+make[2]: Leaving directory '/opt/n2n/build'
+[ 77%] Built target n2n-benchmark
+make -f CMakeFiles/supernode.dir/build.make CMakeFiles/supernode.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/supernode.dir/DependInfo.cmake --color=
+Scanning dependencies of target supernode
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/supernode.dir/build.make CMakeFiles/supernode.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[ 79%] Building C object CMakeFiles/supernode.dir/src/supernode.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/supernode.dir/src/supernode.c.o   -c /opt/n2n/src/supernode.c
+[ 81%] Linking C executable supernode
+/usr/bin/cmake -E cmake_link_script CMakeFiles/supernode.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs  -rdynamic CMakeFiles/supernode.dir/src/supernode.c.o  -o supernode libn2n.a -lpthread 
+make[2]: Leaving directory '/opt/n2n/build'
+[ 81%] Built target supernode
+make -f CMakeFiles/edge.dir/build.make CMakeFiles/edge.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/edge.dir/DependInfo.cmake --color=
+Scanning dependencies of target edge
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/edge.dir/build.make CMakeFiles/edge.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[ 84%] Building C object CMakeFiles/edge.dir/src/edge.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/edge.dir/src/edge.c.o   -c /opt/n2n/src/edge.c
+[ 86%] Linking C executable edge
+/usr/bin/cmake -E cmake_link_script CMakeFiles/edge.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs  -rdynamic CMakeFiles/edge.dir/src/edge.c.o  -o edge libn2n.a -lpthread 
+make[2]: Leaving directory '/opt/n2n/build'
+[ 86%] Built target edge
+make -f CMakeFiles/example_edge_embed_quick_edge_init.dir/build.make CMakeFiles/example_edge_embed_quick_edge_init.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/example_edge_embed_quick_edge_init.dir/DependInfo.cmake --color=
+Scanning dependencies of target example_edge_embed_quick_edge_init
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/example_edge_embed_quick_edge_init.dir/build.make CMakeFiles/example_edge_embed_quick_edge_init.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[ 88%] Building C object CMakeFiles/example_edge_embed_quick_edge_init.dir/src/example_edge_embed_quick_edge_init.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/example_edge_embed_quick_edge_init.dir/src/example_edge_embed_quick_edge_init.c.o   -c /opt/n2n/src/example_edge_embed_quick_edge_init.c
+[ 90%] Linking C executable example_edge_embed_quick_edge_init
+/usr/bin/cmake -E cmake_link_script CMakeFiles/example_edge_embed_quick_edge_init.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs  -rdynamic CMakeFiles/example_edge_embed_quick_edge_init.dir/src/example_edge_embed_quick_edge_init.c.o  -o example_edge_embed_quick_edge_init libn2n.a -lpthread 
+make[2]: Leaving directory '/opt/n2n/build'
+[ 90%] Built target example_edge_embed_quick_edge_init
+make -f CMakeFiles/example_edge_embed.dir/build.make CMakeFiles/example_edge_embed.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/example_edge_embed.dir/DependInfo.cmake --color=
+Scanning dependencies of target example_edge_embed
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/example_edge_embed.dir/build.make CMakeFiles/example_edge_embed.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[ 93%] Building C object CMakeFiles/example_edge_embed.dir/src/example_edge_embed.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/example_edge_embed.dir/src/example_edge_embed.c.o   -c /opt/n2n/src/example_edge_embed.c
+[ 95%] Linking C executable example_edge_embed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/example_edge_embed.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs  -rdynamic CMakeFiles/example_edge_embed.dir/src/example_edge_embed.c.o  -o example_edge_embed libn2n.a -lpthread 
+make[2]: Leaving directory '/opt/n2n/build'
+[ 95%] Built target example_edge_embed
+make -f CMakeFiles/example_sn_embed.dir/build.make CMakeFiles/example_sn_embed.dir/depend
+make[2]: Entering directory '/opt/n2n/build'
+cd /opt/n2n/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /opt/n2n /opt/n2n /opt/n2n/build /opt/n2n/build /opt/n2n/build/CMakeFiles/example_sn_embed.dir/DependInfo.cmake --color=
+Scanning dependencies of target example_sn_embed
+make[2]: Leaving directory '/opt/n2n/build'
+make -f CMakeFiles/example_sn_embed.dir/build.make CMakeFiles/example_sn_embed.dir/build
+make[2]: Entering directory '/opt/n2n/build'
+[ 97%] Building C object CMakeFiles/example_sn_embed.dir/src/example_sn_embed.c.o
+/usr/bin/cc -DCMAKE_BUILD -DGIT_RELEASE=\"2.9.0.r987.d4e0f5a\" -DHAVE_PTHREAD -DN2N_OSNAME=\"Linux\" -DN2N_VERSION=\"2.9.0.r987.d4e0f5a\" -DPACKAGE_OSNAME=\"Linux\" -DPACKAGE_VERSION=\"2.9.0.r987.d4e0f5a\" -I/opt/n2n/. -I/opt/n2n/include  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs   -o CMakeFiles/example_sn_embed.dir/src/example_sn_embed.c.o   -c /opt/n2n/src/example_sn_embed.c
+[100%] Linking C executable example_sn_embed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/example_sn_embed.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs  -rdynamic CMakeFiles/example_sn_embed.dir/src/example_sn_embed.c.o  -o example_sn_embed libn2n.a -lpthread 
+make[2]: Leaving directory '/opt/n2n/build'
+[100%] Built target example_sn_embed
+make[1]: Leaving directory '/opt/n2n/build'
+/usr/bin/cmake -E cmake_progress_start /opt/n2n/build/CMakeFiles 0
+
+================================================================================================================
+./edge
+
+Welcome to n2n v.2.9.0.r987.d4e0f5a for Linux
+Built on Sep 18 2021 16:40:05
+Copyright 2007-2021 - ntop.org and contributors
+
+   basic usage:  edge <config file> (see edge.conf)
+
+            or   edge  -c <community name> 
+                       -l <supernode host>:<port> 
+                      [-a <tap IP address>] 
+                      [-d <tap device name>] 
+                      [-k <encryption key>] 
+
+  -h    shows a quick reference including all available options
+ --help gives a detailed parameter description
+   man  files for n2n, edge, and superndode contain in-depth information
+
+================================================================================================================
+./edge -a 10.30.10.81 -c n2n -k test -l supernode.ntop.org:7777 -d dsfds -f
+
+18/Sep/2021 16:45:41 [edge_utils.c:3743] adding supernode = supernode.ntop.org:7777
+18/Sep/2021 16:45:41 [edge.c:1014] WARNING: switching to AES as key was provided
+18/Sep/2021 16:45:41 [edge.c:1054] starting n2n edge 2.9.0.r987.d4e0f5a Sep 18 2021 16:40:35
+18/Sep/2021 16:45:41 [edge.c:1060] using compression: none.
+18/Sep/2021 16:45:41 [edge.c:1061] using AES cipher.
+18/Sep/2021 16:45:41 [edge_utils.c:392] number of supernodes in the list: 1
+18/Sep/2021 16:45:41 [edge_utils.c:394] supernode 0 => supernode.ntop.org:7777
+18/Sep/2021 16:45:41 [edge_utils.c:483] successfully created resolver thread
+18/Sep/2021 16:45:41 [edge.c:1085] use manually set IP address
+18/Sep/2021 16:45:41 [edge.c:1200] created local tap device IP: 10.30.10.81, Mask: 255.255.255.0, MAC: C6:4B:54:2B:F5:D2
+18/Sep/2021 16:45:41 [edge.c:1270] WARNING: n2n has not been compiled with libcap-dev; some commands may fail
+18/Sep/2021 16:45:41 [edge.c:1275] dropping privileges to uid=65534, gid=65534
+18/Sep/2021 16:45:41 [edge.c:1300] edge started
+18/Sep/2021 16:45:41 [edge_utils.c:1133] successfully joined multicast group 224.0.0.68:1968
+18/Sep/2021 16:45:42 [edge_utils.c:2719] [OK] edge <<< ================ >>> supernode
+18/Sep/2021 16:45:43 [edge.c:928] shutting down...
+18/Sep/2021 16:45:43 [edge_utils.c:2989] **********************************
+18/Sep/2021 16:45:43 [edge_utils.c:2990] Packet stats:
+18/Sep/2021 16:45:43 [edge_utils.c:2991]       TX P2P: 0 pkts
+18/Sep/2021 16:45:43 [edge_utils.c:2992]       RX P2P: 0 pkts
+18/Sep/2021 16:45:43 [edge_utils.c:2993]       TX Supernode: 2 pkts (2 broadcast)
+18/Sep/2021 16:45:43 [edge_utils.c:2994]       RX Supernode: 0 pkts (0 broadcast)
+18/Sep/2021 16:45:43 [edge_utils.c:2995] **********************************
